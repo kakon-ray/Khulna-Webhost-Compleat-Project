@@ -1,0 +1,31 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 22rem;
+    padding: 1em;
+    transform: rotate(-90deg);
+    transition: .5s;
+    width: 100%;
+    margin-left: 0rem;
+    display: inline-block;
+    
+    
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+   
+   
+    stroke-width: 5;
+    
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    font-size: 2rem;
+    
+    text-anchor: middle;
+  }
+  
